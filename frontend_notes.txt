@@ -1,0 +1,39 @@
+BOOTSTRAP JS AND REACT NOTES 
+monday monday 17-03-2025
+
+STEPS TO CREATE GITREPO:
+1.logged into github.com
+2.on top right of the window click plus symbol
+3.give name for the repo
+4.give the description of the repo
+5.repo should be public , click public on the checkbox
+6.click on the checkbox readme file
+7.click on create repository
+
+GIT COMMANDS:
+$ git status
+to know the status of the repo we are working in
+
+$ git clone https://github.com/NoorFathima12-create/pfile_fe_mar25
+this command copies the repo from the server (remote repo) into our laptop
+
+$ git pull origin main 
+this command downloads the updated repo from the server. main here is the default branch name
+
+$ git config --global user.name "NoorFathima12-create" 
+$ git config --global user.email "noorfathima99013@gmail.com" 
+
+STEPS TO CREATE PERSONAL ACCESS TOKEN (PAT)
+1.on the top right corner click on circle icon 
+2.scroll down click on the settings
+3.in the new window scroll down and click developer settings (bottom left corner)
+4.in a new window on top left click tokens and then select tokens classic
+5.in a new window generate new token and select tokens classic 
+6.note: this PAT i have created for my learning purpose
+7.click expiry and select no expiry
+8.select the checkbox repo
+9.scroll down and click generate token
+10.copy the PAT and mail it to yourself (use the mail subject git pat)
+
+STEPS TO SYNC REMOTE REPO TO LOCAL:
+1.$ git clone https://<PAT>github.com/NoorFathima12-create/pfile_fe_mar25
